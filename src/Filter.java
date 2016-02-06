@@ -32,8 +32,8 @@ public class Filter {
 
     public static void main(String[] args) {
         String img1 = "profile.jpg";
-        String img2 = "tainan.jpg";
-        String out = "prayForTainan.png";
+        String img2 = "filter.jpg";
+        String out = "prayForAnything.png";
         Filter f = new Filter();
         f.merge(img1, img2, out);
     }
