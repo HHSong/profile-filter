@@ -23,7 +23,7 @@ public class Filter {
 
             // paint both images, preserving the alpha channels
             g2d.drawImage(image, 0, 0, null);
-            g2d.setComposite(AlphaComposite.SrcOver.derive(0.25f));
+            g2d.setComposite(AlphaComposite.SrcOver.derive(0.4f));
             g2d.drawImage(tmp, 0, 0, null);
             // Save as new image
             ImageIO.write(combined, "PNG", new File(result));
